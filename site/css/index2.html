@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+ <meta charset="utf-8">
+ <meta name="description" content="Hotel La Fuente J.N.">
+ <meta name="keywords" content="HTML5, CSS3, JavaScript">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="css/hjnestilo.css">
+<link rel="stylesheet" type="text/css" href="css/galeria.css">
+ <title>Hotel La Fuente J.N.</title>
+</head>
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html"><img src="img/font.png" alt="" width="50px"></a></li>
+				<li><a href="galeria.html">Habitaciones</a></li>
+				<li><a href="fotos.html">Eventos</a></li>
+				<li><a href="#">Restaurantes</a></li>
+				<li><a href="#">actividades</a></li>
+				<li><a href="team.html">Equipo</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header><br><br><br><br>
+
+	<div>
+		<div class="mySlides w3-cyan">
+	    	<div class="w3-container w3-cyan">
+				<h1><b>Te gustaría conocer Caño Cristales?</b></h1>
+				<h1><i>Nosotros te llevamos</i></h1>
+			</div>
+		</div>
+		
+		<div class="mySlides">
+			<div class="w3-container w3-red">
+				<h1><b>Sabes qué es la Macarena?</b></h1>
+				<h1><i>La tierra más hermosa</i></h1>
+			</div>
+		</div>
+
+		<div class="mySlides">
+			<div class="w3-container w3-blue">
+				<h1><b>Te gustaría conocer Caño Cristales?</b></h1>
+				<h1><i>Nosotros te llevamos</i></h1>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<div id="captioned-gallery">
+		<figure class="slider">
+			<figure>
+				<img src="img/hotel2.jpg" alt>
+				<figcaption>Hotel La Fuente J.N.</figcaption>
+			</figure>
+			<figure>
+				<img src="img/hotel2.jpg" alt>
+				<figcaption>Habitaciones, Espectaculares.</figcaption>
+			</figure>
+			<figure>
+				<img src="img/hotel3.jpg" alt>
+				<figcaption>Para Toda La Familia.</figcaption>
+			</figure>
+			<figure>
+				<img src="img/hotel4.jpg" alt>
+				<figcaption>Disfruta Unas Merecidas Vacaciones.</figcaption>
+			</figure>
+			<figure>
+				<img src="img/hotel5.jpg" alt>
+				<figcaption>Habitaciones De Lujo.</figcaption>
+			</figure>
+		</figure>
+	</div>
+
+	<footer  id="pie">
+		<div class="piedepa">
+		<center>
+			<table>
+				<tr class="tb_foot_f1">
+					<td>Columna1</td>
+					<td>Columna2</td>
+					<td>Columna3</td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td>
+									<img src="img/font.png" alt="" width="200px">
+								</td>
+							</tr>
+							<tr>
+								<td>Hotel La Fuente J.N.</td>
+							</tr>
+							<tr>
+								<td>Dirección</td>
+							</tr>
+							<tr>
+								<td>Teléfono</td>
+							</tr>
+							<tr>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<div class="mapa_go">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5638.362160983177!2d-73.78596396414163!3d2.182487227306003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1493926483620" width="500" height="350" frameborder="0" style="border:0" allowfullscreen>
+							</iframe>
+						</div>
+					</td>
+					<td>
+						<img src="img/font.png" alt="" width="200px">
+					</td>
+				</tr>
+				<tr class="tb_foot_f3">
+					<td colspan="3">
+						<p>Derechos Reservados &copy; 2017 Desarrollador. Hotel La Fuente J.N..</p>
+					</td>
+					
+				</tr>
+			</table>
+		</center>
+		</div>
+	</footer>
+
+
+	<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+</body>
+</html>
