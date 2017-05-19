@@ -5,7 +5,6 @@
  *
  * Made By MaterializeCSS.com
  */
-
 nav ul a,
 nav .brand-logo {
   color: #df0;
@@ -54,4 +53,15 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+.goo_font{
+  font-family: 'Indie Flower', cursive;
+}
+h1, .tangerine_tit{
+  font-family: 'Tangerine', cursive;
+  font-size: 70px;
+}
+.tangerine_lit{
+  font-family: 'Tangerine', cursive;
+  font-size: 35px;
 }
