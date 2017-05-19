@@ -1,32 +1,50 @@
 <!DOCTYPE html> 
 <html lang="es"> 
 <head> 
- <meta charset="utf-8">
- <meta name="description" content="Hotel La Fuente J.N.">
- <meta name="keywords" content="HTML5, CSS3, JavaScript"> 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" type="text/css" href="css/hjnestilo.css">
-<link rel="stylesheet" type="text/css" href="css/galeria.css">
- <title>Hotel La Fuente J.N.</title>
+	<meta name="description" content="Hotel La Fuente J.N.">
+	<!-- DESCRIPCIÓN PARA LOS BUSCADORES GOOGLE YAHOO AMAZON MSN.-->
+	<meta name="keywords" content="Viajes A La Macarena,Viajas Colombia, Hotel Caño Cristales,Hotel La Fuente J.N., Hotel La Fuente La Macarena, Viaje A Caño Cristales, Caño Cristales Colombia, La Macarena, La Macarena Meta,">
+	<!-- Palabras Clave --> <!-- NO BORRAR NUNCA IMPORTANTE PARA EL POSICIONAMIENTO AGREGAR CONCEPTOS CLAVE-->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/> 
+	
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- CSS  -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<title>Hotel La Fuente J.N.</title>
 </head>
-
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html"><img src="img/font.png" alt="" width="50px"></a></li>
-				<li><a href="#">Habitaciones</a></li>
-				<li><a href="#">Eventos</a></li>
-				<li><a href="#">Restaurantes</a></li>
-				<li><a href="#">actividades</a></li>
-				<li><a href="team.html">Equipo</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-		</nav>
-	</header><br><br><br>
-
+  <div>
+  	<nav class="indigo" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo"><img src="img/font.png" alt="" width="50px"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="white-text" href="index.html">Inicio</a></li>
+          <li><a class="white-text" href="habitaciones.html">Habitaciones</a></li>
+          <li><a class="white-text" href="alojamiento.html">Alojamiento</a></li>
+          <li class="active"><a href="galeria.html">Galería</a></li>
+          <li><a class="white-text" href="restorant.html">Restaurantes</a></li>
+          <li><a class="white-text" href="team.html">Equipo</a></li>
+          <li><a class="white-text" href="contact.html">Contacto</a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="habitaciones.html">Habitaciones</a></li>
+          <li><a href="fotos.html">Eventos</a></li>
+          <li><a href="activities.html">Actividades</a></li>
+          <li><a href="restorant.html">Restaurantes</a></li>
+          <li><a href="team.html">Equipo</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 	<div class="titulo1">
-		<h1>Siéntase Como En Casa En Nuestras Habitaciones.</h1>
+	  <h1>Siéntase Como En Casa En Nuestras Habitaciones.</h1>
 	</div>
 
 	<div class="w3-content w3-display-container" width="100%">
@@ -43,12 +61,12 @@
 	</div>
 	<div class="habitaciones_galeria">
 		
-		<h3>Habitaciones Dobles</h3>
+	  <h3>Habitaciones Dobles</h3>
 		<ul class="galeria">
-			<li><a href="#img1"><img src="img/photo1.jpg"></a></li>
-			<li><a href="#img2"><img src="img/photo2.jpg"></a></li>
-			<li><a href="#img3"><img src="img/photo3.jpg"></a></li>
-			<li><a href="#img4"><img src="img/photo4.jpg"></a></li>
+		  <li><a href="#img1"><img src="img/photo1.jpg"></a></li>
+		  <li><a href="#img2"><img src="img/photo2.jpg"></a></li>
+		  <li><a href="#img3"><img src="img/photo3.jpg"></a></li>
+		  <li><a href="#img4"><img src="img/photo4.jpg"></a></li>
 		</ul>
 		<h3>Habitaciones Dobles</h3>
 		<ul class="galeria">
@@ -88,7 +106,7 @@
 			<a href="#img2">></a>
 		</div>
 		<h1>hola</h1>
-		<a class="cerrar" href="#">X</a>
+		<a class="cerrar" href="#!">X</a>
 	</div>
 	
 	<div class="modal" id="img2">
@@ -98,7 +116,7 @@
 			<a href="#img3"><img src="img/photo2.jpg"></a>
 			<a href="#img3">></a>
 		</div>
-		<a class="cerrar" href="#img1">X</a>
+		<a class="cerrar" href="#!">X</a>
 	</div>
 	
 	<div class="modal" id="img3">
@@ -108,7 +126,7 @@
 			<a href="#img4"><img src="img/photo3.jpg"></a>
 			<a href="#img4">></a>
 		</div>
-		<a class="cerrar" href="#img1">X</a>
+		<a class="cerrar" href="#!">X</a>
 	</div>
 	
 	<div class="modal" id="img4">
@@ -118,7 +136,7 @@
 			<a href="#img1"><img src="img/photo4.jpg"></a>
 			<a href="#img1">></a>
 		</div>
-		<a class="cerrar" href="#">X</a>
+		<a class="cerrar" href="#!">X</a>
 	</div>
 
 	<footer  id="pie">    
