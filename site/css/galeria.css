@@ -108,6 +108,16 @@ h3{
 	line-height: 25px;
 }
 .habitaciones_galeria{
-	background-color: #000;
+	margin-top: 10px;
+	background-color: #fff;
 	border-radius: 5px;
+	border: solid 1px #fff;
+}
+.habitaciones{
+	margin: 15px auto 15px auto ;
+	/*background-color: #c5cae9;*/
+	border-radius: 5px;
+	border: solid 1px #fff;
+	width: 90%;
+	
 }
